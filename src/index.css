@@ -1,13 +1,72 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  background-image: url('/src/signup.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input{
+  margin-left: 2%;
+  padding: 2px;
+  background:none;
+  border:none;
+  appearance: none;
+  outline: none;
+
+}
+.button
+  { 
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    }
+
+button{
+  padding: 15px;
+  margin: 10px 10px;
+  font-size: 15px;
+  width: 130px;
+  height: 48px;
+  background-color: white;
+  color: #2148C0;
+  border:  none;
+}
+button:hover{
+  cursor: pointer;
+}
+
+.signinbtn{
+  margin-left: 0;
+  width: 100px;
+  color: #4C64C2;
+}
+.googleicon{
+  background-color: white;
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+  
+}
+.center{
+  margin-top: 10%;
+}
+.googlebtn{
+  display: inline;
+  background-color: #4a69e4;
+}
+
+.input-div{
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  border: 2px white solid;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+p{
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
 }
