@@ -1,0 +1,90 @@
+body{
+  background-image: url('/src/assets/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+input{
+  margin-left: 2%;
+  padding: 2px;
+  background:none;
+  border:none;
+  appearance: none;
+  outline: none;
+}
+.button
+  { 
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    }
+button{
+  padding: 15px;
+  margin: 10px 10px;
+  font-size: 15px;
+  width: 130px;
+  height: 48px;
+  background-color: white;
+  color: #2148C0;
+  border:  none;
+}
+button:hover{
+  cursor: pointer;
+}
+.signinbtn{
+  margin-left: 0;
+  width: 100px;
+  color: #4C64C2;
+}
+.googleicon{
+  background-color: white;
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+  
+}
+.center{
+  margin-top: 10%;
+}
+.googlebtn{
+  display: inline;
+  background-color: #4a69e4;
+}
+
+.input-div{
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  border: 2px white solid;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+p{
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+.loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #3498db;
+  width: 24px;
+  height: 24px;
+  align: right;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  }
+
+  @keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+    }
+
+    @-webkit spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+    } 
