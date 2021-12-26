@@ -1,7 +1,9 @@
 .body {
-    background: url(../../assets/background.png);
+    /* background: url(../../assets/background.svg); */
     height: 100vh;
     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .container {
@@ -28,7 +30,7 @@
     position: absolute;
     width: 11px;
     height: 11px;
-    background: url(../../assets/png-apple-logo.png);
+    /* background: url(../../assets/png-apple-logo.png); */
   }
   
   .rect-2 {
